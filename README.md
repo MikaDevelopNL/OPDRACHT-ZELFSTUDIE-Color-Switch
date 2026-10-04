@@ -1,42 +1,47 @@
-# Color Switcher
+# Productinformatie tonen
 
-Een kleine interactieve website waarbij je met drie knoppen de kleur van de website kunt veranderen. De geselecteerde kleur wordt ook zichtbaar gemaakt.
+Een kleine interactieve website waarbij je productinformatie van twee fietsen kunt bekijken. Met de knop "Meer informatie..." worden de specificaties van de betreffende fiets zichtbaar gemaakt.
 
 ## 🎨 Functionaliteit
 
-- Kies tussen Blue, Purple en Green.
-- De achtergrondkleur verandert direct na een klik.
-- De geselecteerde knop krijgt een visuele `selected`-status.
-- Onder de knoppen wordt weergegeven welke kleur geselecteerd is.
+* Bekijk twee verschillende fietsproducten.
+* Bekijk de naam, omschrijving en prijs van iedere fiets.
+* Klik op "Meer informatie..." om de specificaties van een fiets te tonen.
+* Klik opnieuw om de specificaties weer te verbergen.
+* Wanneer de specificaties van één fiets worden geopend, sluit de andere automatisch.
 
 ## 🛠️ Gebruikte technieken
 
-- HTML5
-- CSS3
-- JavaScript
-- DOM manipulation
-- `querySelector()`
-- `querySelectorAll()`
-- `addEventListener()`
-- Functies
-- `if / else if / else`
-- `classList`
-- `textContent`
+* HTML5
+* CSS3
+* JavaScript
+* DOM manipulation
+* `querySelector()`
+* `querySelectorAll()`
+* `addEventListener()`
+* `forEach()`
+* `parentElement`
+* `classList`
+* `classList.toggle()`
+* `classList.remove()`
+* `if`
+* CSS Grid
+* Flexbox
 
 ## 📚 Wat heb ik geleerd?
 
-Tijdens dit project heb ik vooral geoefend met het combineren van verschillende JavaScript-onderdelen.
+Tijdens dit project heb ik vooral geoefend met het koppelen van een specifieke button aan de juiste productinformatie.
 
-Ik heb geleerd hoe ik meerdere elementen kan selecteren met `querySelectorAll()`, hoe ik met een `for...of`-loop event listeners aan meerdere knoppen kan koppelen en hoe ik een functie kan gebruiken om de logica overzichtelijk te houden.
+Ik heb geleerd hoe ik met `querySelectorAll()` meerdere knoppen kan selecteren en met `forEach()` aan iedere knop een `click` event kan koppelen. Daarnaast heb ik geoefend met `parentElement` om vanuit een button naar het bijbehorende product te gaan en met `querySelector()` de juiste informatie binnen dat product te selecteren.
 
-Daarnaast heb ik verder geoefend met `classList`, `if/else` en `textContent`.
+Ook heb ik verder geoefend met `classList.toggle()` en `classList.remove()` om informatie zichtbaar en onzichtbaar te maken.
 
 Ik maak regelmatig kleine projecten om deze vaardigheden steeds beter zelfstandig toe te passen. Tijdens het leren gebruik ik ChatGPT als hulp wanneer ik vastloop. Ik probeer daarbij eerst zelf na te denken en de oplossing stap voor stap te begrijpen, in plaats van de volledige oplossing direct over te nemen.
 
 ## 🚀 Live Demo
 
-https://mikadevelopnl.github.io/OPDRACHT-ZELFSTUDIE-Color-Switch/
+[Live Demo](#)
 
 ## 📌 Status
 
-Dit project is afgerond als oefenproject. Het doel was om JavaScript verder te oefenen en beter te leren nadenken over de logica van een interactieve website.
+Dit project is afgerond als oefenproject. Het doel was om JavaScript verder te oefenen met DOM-manipulatie, event listeners en het gericht tonen en verbergen van informatie.
